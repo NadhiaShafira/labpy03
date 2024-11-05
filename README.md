@@ -54,3 +54,4 @@ print("SELESAI")
 ```
 akan menampilkan `SELESAI!`
 ```
+![foto](https://github.com/NadhiaShafira/labpy03/blob/4247221e4156a7de4789180e7031de52b19893f1/Cuplikan%20layar%202024-11-05%20213017.png)
