@@ -170,6 +170,6 @@ jika pengguna memilih 1, maka akan ada langkah-langkah untuk melakukan penarikan
       ```
        Jika pengguna memasukkan pilihan selain `1` atau `2`, pesan "Pilihan tidak valid, silakan coba lagi." akan ditampilkan dan loop akan berulang.
 
-      ![foto](
+      ![foto](https://github.com/NadhiaShafira/labpy03/blob/2a9f788e6885859388ed5658e549471bf67e3051/Cuplikan%20layar%202024-11-05%20224645.png) 
 
 
