@@ -105,4 +105,4 @@ Total modal setelah laba bulan tersebut ditambahkan, diformat dalam format rupia
 print(f"\nTotal modal pada akhir bulan ke-8: Rp{modal:,.0f}")
 ```Setelah loop selesai, kode ini menampilkan total modal setelah bulan ke-8, diformat dengan pemisah ribuan untuk tampilan yang lebih mudah dibaca.
 
-![foto](
+![foto](https://github.com/NadhiaShafira/labpy03/blob/bedc470f4478037b9063a26bfe127e329665b35e/Cuplikan%20layar%202024-11-05%20215010.png) 
