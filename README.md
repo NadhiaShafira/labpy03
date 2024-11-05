@@ -170,6 +170,6 @@ jika pengguna memilih 1, maka akan ada langkah-langkah untuk melakukan penarikan
       ```
        Jika pengguna memasukkan pilihan selain `1` atau `2`, pesan "Pilihan tidak valid, silakan coba lagi." akan ditampilkan dan loop akan berulang.
 
-      
+      ![foto](
 
 
