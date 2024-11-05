@@ -55,3 +55,54 @@ print("SELESAI")
 akan menampilkan `SELESAI!`
 ```
 ![foto](https://github.com/NadhiaShafira/labpy03/blob/4247221e4156a7de4789180e7031de52b19893f1/Cuplikan%20layar%202024-11-05%20213017.png)
+
+## alur kode latihan 2
+
+```python
+modal_awal = 100_000_000
+```
+Kode ini menginisialisasi variabel `modal_awal` dengan nilai 100 juta.
+
+```python
+laba_bulan = [0, 0, 0.01, 0.01, 0.05, 0.05, 0.05, 0.03]
+```
+- `0` berarti tidak ada laba pada bulan tersebut.
+- `0.01` laba 1%.
+- `0.05` laba 5%.
+- `0.03` laba 3%.
+
+```python
+modal = modal_awal
+```
+Variabel `modal` diinisialisasi dengan nilai `modal_awal`. Variabel ini akan diubah setiap bulan untuk menghitung total modal setelah laba ditambahkan.
+
+```python
+for i, persentase_laba in enumerate(laba_bulan):
+```
+
+Loop `for` digunakan untuk menghitung laba dan memperbarui modal setiap bulan. `enumerate` memberikan indeks `i` untuk melacak bulan ke berapa, dan `persentase_laba` adalah nilai persentase laba untuk bulan tersebut.
+
+```python
+laba_bulan_ini = modal * persentase_laba
+```
+
+Di dalam loop, variabel `laba_bulan_ini` digunakan untuk menghitung laba berdasarkan `modal` saat ini dan `persentase_laba` bulan tersebut. Laba ini kemudian akan ditambahkan ke modal.
+```python
+
+modal += laba_bulan_ini
+```
+Laba yang diperoleh pada bulan tersebut (`laba_bulan_ini`) ditambahkan ke `modal`, memperbarui total modal.
+
+```python
+print(f"laba bulan ke{i+1}: sebesar {persentase_laba*100}% -> Total modal: Rp{modal:,.0f}")
+```
+
+Bulan keberapa (`i+1` untuk menjadikannya mulai dari 1).
+Persentase laba untuk bulan tersebut (dikali 100 agar dalam bentuk persen).
+Total modal setelah laba bulan tersebut ditambahkan, diformat dalam format rupiah dengan pemisah ribuan.
+
+```python
+print(f"\nTotal modal pada akhir bulan ke-8: Rp{modal:,.0f}")
+```Setelah loop selesai, kode ini menampilkan total modal setelah bulan ke-8, diformat dengan pemisah ribuan untuk tampilan yang lebih mudah dibaca.
+
+![foto](
